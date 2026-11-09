@@ -1,0 +1,47 @@
+{
+  "name": "Cilles lomme gartner",
+  "short_name": "Cilles gartner",
+  "description": "Personlig gartner-agent for grønnsaker, bilder, chat og dyrkelogg.",
+  "start_url": "./personlig-gartner-agent.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f4ef",
+  "theme_color": "#16a34a",
+  "categories": ["lifestyle", "productivity", "utilities"],
+  "lang": "no",
+  "icons": [
+    {
+      "src": "./gartner-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./gartner-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./gartner-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Chat med gartner",
+      "short_name": "Chat",
+      "url": "./personlig-gartner-agent.html#chat",
+      "description": "Still spørsmål til gartner-agenten."
+    },
+    {
+      "name": "Ny hagesjekk",
+      "short_name": "Sjekk",
+      "url": "./personlig-gartner-agent.html#analyse",
+      "description": "Last opp bilder og lag en ny plantevurdering."
+    }
+  ]
+}
